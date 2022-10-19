@@ -4,12 +4,12 @@ import json
 url = "<https://yoururl/api/tenancy/tenants/>"
 
 payload = json.dumps({
-  "name": "agrotestvscpython",
-  "slug": "agrotestvscpython"
+  "name": "<name_of_the_new_tenant>",
+  "slug": "<name_of_the_new_tenant>"
 })
 headers = {
   'accept': 'application/json',
-  'Authorization': 'Token <YourToken>',
+  'Authorization': 'Token <Your_Token_API>',
   'Content-Type': 'application/json'
 }
 
