@@ -5,7 +5,7 @@ url = "<https://yoururl/api/ipam/vlans/>"
 
 payload = json.dumps({
   "vid": "<YourVlanID>",
-  "name": "<YourVlanName",
+  "name": "<YourVlanName>",
   "tenant": "<YourTenantID>"
 })
 headers = {
