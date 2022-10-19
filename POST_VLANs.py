@@ -4,9 +4,9 @@ import json
 url = "<https://yoururl/api/ipam/vlans/>"
 
 payload = json.dumps({
-  "vid": "100",
-  "name": "vlantestagro1",
-  "tenant": "14"
+  "vid": "<YourVlanID>",
+  "name": "<YourVlanName",
+  "tenant": "<YourTenantID>"
 })
 headers = {
   'accept': 'application/json',
